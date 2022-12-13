@@ -1,0 +1,26 @@
+server creation=node js+express
+basic commands
+1)creation of the package json=npm init
+2)creation of node modules=npm i express
+
+basic steps
+1)creating a folder(bank server)
+2)create package.json
+3)install express
+4)create index .js
+5)import express inside the index.js
+6)create an app using the express
+7)set up port number
+8)resolving http request
+
+
+
+
+
+
+
+
+
+
+middleware)
+it comes in the middle of the request and response cycle of 
