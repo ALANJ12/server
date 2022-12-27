@@ -12,6 +12,48 @@ basic steps
 6)create an app using the express
 7)set up port number
 8)resolving http request
+Get    - To get the data
+    post   - To post the data
+    put    - To update data partially
+    patch  - To update data completely
+    delete - To delete the data completely
+
+9)HTTP response code
+    1xx - Information
+    2xx - Successfull
+    3xx - Redirection
+    4xx - Client error
+    5xx - Server error
+    
+10)JWT Token
+    Install JWT - npm i jsonwebtoken
+    To generate a Token - sign()
+
+11) Middleware 
+    It comes in the middle of the request and response cycle of nodeJs execution proscess
+        1) Application specific middleware - For the entire application
+            -req,res,next
+        2) Router specific middleware - validate token - verify() - jwtwebtoken
+        
+12)Database Integration
+1)install mongoose-npm i mongoose
+
+13)asynchronous function resolving-promise
+1)resolve state-.then()
+2)reject state-catch()
+
+14)cors-cross origin resource sharing
+install cors-npm i cors
+port 4200(angular)-----request------>3000(node)
+
+15)
+asynchronous call - rxjs (reactive extension for javascript)
+
+js-promise
+ts-rxjs(library)
+1)observable
+a)resolved -subscribe()
+b)reject-catch()
 
 
 
@@ -20,7 +62,3 @@ basic steps
 
 
 
-
-
-middleware)
-it comes in the middle of the request and response cycle of 
